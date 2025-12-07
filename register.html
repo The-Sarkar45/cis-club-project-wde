@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Join DIU CIS — Register</title>
+    <link rel="icon" href="image/logos/bluelog.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+   <!-- Navbar -->
+  <header class="navbar">
+    <div class="wrap" style="display:flex;align-items:center;justify-content:space-between;width:100%">
+      <a class="brand" href="#">
+         <div class="logo" aria-hidden="true">
+            <img src="image/logos/bluelog.png" alt="DIU CIS Logo" width="32" height="32">
+</div>
+
+        <div class="title">
+          <span class="main">DIU CIS</span>
+          <span class="sub">COMPUTING &amp; INFORMATION SYSTEM Club</span>
+        </div>
+      </a>
+
+      <nav class="links" aria-label="Primary navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="events.html">Events</a>
+        <a href="contact.html">Contact</a>
+        <a href="Executives.html">Executive Body</a>
+      </nav>
+
+      <div class="cta">
+        <a class="btn-primary" href="register.html">Join Now</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap page-main">
+
+    <!-- Benefits header -->
+    <section class="benefits-hero">
+      <div class="badge">Member Benefits</div>
+      <h1>What You'll Get as a Member</h1>
+      <p class="lead">Join DIU CIS and access workshops, projects, industry connections and early access to events.</p>
+    </section>
+
+    <!-- Four boxes (grid) -->
+    <section class="benefits-grid" aria-label="Member benefits">
+      <div class="benefit-box">
+        <div class="icon">👥</div>
+        <div class="content">
+          <h3>Exclusive Workshops</h3>
+          <p>Access to hands-on technical workshops and masterclasses.</p>
+        </div>
+      </div>
+
+      <div class="benefit-box">
+        <div class="icon">✨</div>
+        <div class="content">
+          <h3>Project Collaborations</h3>
+          <p>Work on exciting projects with like-minded peers.</p>
+        </div>
+      </div>
+
+      <div class="benefit-box">
+        <div class="icon">🌐</div>
+        <div class="content">
+          <h3>Industry Networking</h3>
+          <p>Connect with professionals and DIU gallery.html.</p>
+        </div>
+      </div>
+
+      <div class="benefit-box">
+        <div class="icon">⏱️</div>
+        <div class="content">
+          <h3>Early Access</h3>
+          <p>Priority registration for competitions and events.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Register form -->
+    <section class="register-section" aria-labelledby="register-title">
+      <div class="form-card">
+        <h2 id="register-title">Become a Member</h2>
+        <p class="form-sub">Fill out the form below. We'll review your application and contact you.</p>
+
+        <!-- Replace action with your backend endpoint (Formspree, Google form, etc.) -->
+        <form class="register-form" action="#" method="post" novalidate>
+          <div class="form-row">
+            <label for="fullName">Full name</label>
+            <input id="fullName" name="fullName" type="text" placeholder="Your full name" required>
+          </div>
+
+          <div class="form-row">
+            <label for="email">Academic email</label>
+            <input id="email" name="email" type="email" placeholder="you@university.edu" required>
+            <small class="hint">Use your DIU academic email if available.</small>
+          </div>
+
+          <div class="form-row split">
+            <div>
+              <label for="phone">Phone number</label>
+              <input id="phone" name="phone" type="tel" placeholder="+880 1XXXXXXXXX" required>
+            </div>
+
+            <div>
+              <label for="semester">Current semester</label>
+              <input id="semester" name="semester" type="text" placeholder="e.g. 3rd semester" required>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <label for="birthdate">Birthdate</label>
+            <input id="birthdate" name="birthdate" type="date" required>
+          </div>
+
+          <div class="form-row">
+            <label for="motivation">Motivation (why you want to join)</label>
+            <textarea id="motivation" name="motivation" rows="6" placeholder="Tell us briefly why you'd like to join DIU CIS" required></textarea>
+          </div>
+
+          <div class="form-row actions">
+            <button type="submit" class="btn-primary"><a href="approved.html">submit</a></button>
+            <button type="reset" class="btn-outline">Reset</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+   <!-- Footer -->
+ <footer class="site-footer">
+  <div class="container footer-grid">
+    <!-- LEFT: brand, description, socials -->
+    <div class="footer-brand">
+      <div class="footer-logo" aria-hidden="true">
+        <img src="image/logos/bluelog.png" alt="DIU CIS Logo" width="32" height="32">
+      </div>
+
+      <div class="footer-titles">
+        <div class="footer-main">DIU CIS</div>
+        <div class="footer-sub">COMPUTING &amp; INFORMATION SYSTEM Club</div>
+      </div>
+
+      <p class="footer-about">
+        About CIS Club — Dedicated to fostering tech leadership and innovation among CIS students. Join our journey.
+      </p>
+
+      <div class="footer-socials" aria-label="DIU CIS social links">
+        <a href="https://www.facebook.com/diucisclub" target="_blank" rel="noopener" class="social" aria-label="Facebook">
+          <!-- facebook icon -->
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M22 12a10 10 0 1 0-11.5 9.9v-7h-2.2v-2.9h2.2V9.1c0-2.2 1.3-3.4 3.3-3.4.95 0 1.95.17 1.95.17v2.14h-1.1c-1.1 0-1.45.69-1.45 1.4v1.68h2.5l-.4 2.9h-2.1v7A10 10 0 0 0 22 12z" fill="currentColor" opacity="0.9"/>
+          </svg>
+        </a>
+
+        <a href="mailto:contact@diucis.edu" class="social" aria-label="Email">
+          <!-- mail icon -->
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M3 7.5v9A2.5 2.5 0 0 0 5.5 19h13A2.5 2.5 0 0 0 21 16.5v-9A2.5 2.5 0 0 0 18.5 5h-13A2.5 2.5 0 0 0 3 7.5z" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M21 7.5l-9 6-9-6" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+
+    <!-- MIDDLE: quick links only -->
+    <div class="footer-links">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="join.html">Join Now</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- RIGHT: keep minimal (copyright) -->
+    <div class="footer-right">
+      <div class="footer-cta-quote">
+        Empowering students through tech innovation.
+      </div>
+
+      <div class="footer-copyright">
+        © 2025 DIU CIS Club — All Rights Reserved.
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+</body>
+</html>

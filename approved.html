@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>DIU CIS — Action Link</title>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="image/logos/bluelog.png">
+</head>
+<body>
+   <div class="wrap">
+    <header class="topbar">
+      <div class="brand">
+        <div class="logo" aria-hidden="true"><img src="image/logos/bluelog.png" alt="DIU CIS Logo" width="32" height="32"></div>
+         
+        <div>
+          <div class="title">DIU CIS</div>
+          <div class="sub">COMPUTING &amp; INFORMATION SYSTEM Club</div>
+        </div>
+      </div>
+      <nav aria-label="utility"><a class="btn" href="index.html">Home</a></nav>
+    </header>
+
+    <main="wrap ">
+      <section class="action-area" aria-hidden="false">
+        <!-- clicking this navigates to #approved and reveals the card -->
+        <a class="action-link" href="#approved" role="button" aria-expanded="false">Approve Action ✓</a>
+        <!-- also allow direct open by linking to this page with #approved -->
+      </section>
+
+      <!-- target anchor: when URL contains #approved this element becomes :target -->
+      <a id="approved" tabindex="-1"></a>
+
+      <!-- approval card (hidden until :target) -->
+      <div class="approval-card" role="status" aria-live="polite" aria-hidden="true">
+        <div class="tick" aria-hidden="true">✔</div>
+        <h2>Approved</h2>
+        <p>Your request has been approved successfully.</p>
+
+        <div class="approval-actions">
+          <a class="btn btn-primary" href="home.html">Go to Home</a>
+          <!-- close returns to top (removes #approved) -->
+          <a class="btn btn-close" href="#top">Close</a>
+        </div>
+      </div>
+    </main>
+  </div>
+</body>
+</html>
